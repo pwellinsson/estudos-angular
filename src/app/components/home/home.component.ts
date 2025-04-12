@@ -7,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrl: './home.component.scss'
 })
 export class HomeComponent {
+  myBoolean = "Peter"
 
+  atualizaBoolean(value: any) {
+    this.myBoolean = value
+  }
 }
